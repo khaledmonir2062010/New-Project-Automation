@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="NopCommerce_RegressionSuite">
-<parameter name="browser" value="headless"></parameter>
+<parameter name="browser" value="chromeheadless"></parameter>
   <test name="Regression test">
     <classes>
       <class name="tests.UserRegistrationTest"/>
